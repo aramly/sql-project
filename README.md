@@ -1,17 +1,17 @@
-# sql-project
+# Steam API and Web Scraping
 
-Project Name
-Project Objective
-What problem are you solving?
-How are you solving this problem?
-Job Description
-1 paragraph explaining the company, title, and job description for the job posting you selected
-Briefly explain how the project is related to the job posting
-Data
-Source
-Characteristics
-Notebooks
-Links to the notebook and a description of the notebook's purpose
-Your GitHub repository should contain your data_collection.ipynb and sql_analysis.ipynb notebooks. (1 point)
-Future Improvements
-Identify 1-2 improvements if you had more time
+### Project Objective
+The aim of this project is to understand the factors that affect the success of video games available on the Steam platform. The Steam platform is one of the most popular services for the distribution of digital video games, which is why it is a highly competitive and dynamic market for video game companies that aim to profit of their products. Understanding what makes a game successful is important for game developers, so the project seeks to identify the common factors that lead to the success of top-selling games in various genres on Steam. I am mainly focusing on the positive and negative reviews each game has.
+
+
+### Job Description: Associate Web Analyst Position
+Rockstar games is looking for web analysts that are able to identify needs and translate those needs into actionable data analyses. Analysts have to stay up to date on measurement technologies and industry trends, perform ad-hoc analyses to answer business questions, drive insights, and enable business decisions. Finally, able to utilize web analytics data in conjunction with game and business data to deliver deep insights into customer behavior and business performance. 
+
+### Rockstar games
+Rockstar Games is a renowned video game developer and publisher that has gained a reputation for producing some of the most critically acclaimed and commercially successful titles in the industry. Their games are known for their innovative gameplay mechanics, immersive open-world environments, and gripping storylines. Rockstar Games has also been at the forefront of incorporating new technologies into their games, such as motion capture and facial recognition, to enhance the realism of their characters and settings. Overall, Rockstar Games is a leading figure in the gaming industry, with a loyal fan base and a legacy of groundbreaking titles that have left a lasting impact on the medium. The project's findings on the factors that affect the success of video games on the Steam platform could be extremely valuable to Rockstar Games. As a major player in the video game industry, Rockstar Games is always looking for ways to improve their products and gain an edge over their competitors. By analyzing the data collected from this project, Rockstar Games could gain insight into what makes a game successful on Steam and adjust their development strategy accordingly. Negative/positive reviews, the top games of each genres and also various video game prices, can all be extremely useful for Rockstar games if they want to improve their current game titles or expand their games library in the future.
+
+### Data
+I have retrieved the data from Steam's top selling website and also their API. I webscraped their top selling website with 5 video game categories as its perimeters which are: action, adventure, role-playing, sports and race. I then created 2 dictionaries for each genre which keeps info about games details and reviews. I ended up with 10 tables which I had inserted into my Amazon AWS database.
+
+### Future Improvements
+If I had more time, I would clean up the data a little bit more. There were a lot of null values within Steam's top selling website, so in the future I would try and web scrape Steam's category library instead of using the top selling website for more accurate results. I would also like to compare Steam's  prices and reviews with other gaming distribution platforms, such ash Nintendo, Battle.net etc.
